@@ -3,4 +3,4 @@ This is a project done for the purposes of building my coding habits and achievi
 
 See full live working version here: 
 
-Enjoy! 
+Enjoy 🤓
