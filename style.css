@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+* {
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #ECC8AF;
+    margin: 0;
+}
+
+nav {
+  background-color: #BA2D0B;
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+nav a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+header {
+  height: 100vh;
+  background-image: url(https://images.unsplash.com/photo-1531482615713-2afd69097998?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+header::after {
+  content: '';
+  position: absolute;
+  background-color: #000;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.8;
+}
+
+header * {
+  position: relative;
+  z-index: 1;
+}
+
+header h1 {
+  font-size: 60px;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
+header p {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+section {
+  text-align: center;
+  padding: 40px;
+}
+
+section p {
+  margin-top: 0;
+}
+
+section h2 {
+  margin: 0;
+}
+.bg-colour {
+  background-color: #73BA9B;
+  color: #fff;
+}
+.social-ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social-ul a {
+ color: #fff;
+ font-size: 30px;
+  margin: 0 10px;
+}
+
+
+footer {
+  background-color: #BA2D0B;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+footer .fa-heart {
+  color: red;
+}
